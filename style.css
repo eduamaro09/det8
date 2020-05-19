@@ -1,0 +1,39 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.navbarcoustom{
+  height: 98px;
+  background-color: #6165ea;
+}
+
+.navbartext{
+  color: white;
+}
+
+.logo{
+    height: 90px;
+    margin-right: 25px;
+}
+
+
+.background{
+  background-image: url(Img/footer_backround.png);
+  height: 90vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.slogan{
+    text-align: center;
+    color: #6165ea;
+}
+
+.logo-tamaño{
+  margin-left: 40px;
+}
+
