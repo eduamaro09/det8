@@ -85,7 +85,8 @@ body{
   justify-content: space-around;
   background-color: #6165ea;
   border: 1px darkblue solid;
-  margin-top: 38.5%;
+  padding-top: 50px;
+
 }
 
 .buttom{
@@ -157,6 +158,18 @@ body{
 }
 
 .fiximage{
-  height: 18rem;
-  margin-top: 2rem;
+  height: 289px;
+  width: 287px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
