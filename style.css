@@ -37,3 +37,37 @@ body{
   margin-left: 40px;
 }
 
+.button-color{
+    color: white ;
+    background-color: black;
+}
+
+.middle-buttons{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+#button-google{
+  margin-right: 100px;
+  height: 104px;
+  width: 345px;
+}
+
+#button-apple{
+  margin-left: 100px;
+  height: 104px;
+  width: 345px;
+}
+
+.ñora{
+  display: flex;
+  justify-content: center;
+}
+
+.tamaño-ñora{
+  height: 425px;
+  width: 332px;
+  margin-right: 1655px;
+}
