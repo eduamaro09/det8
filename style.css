@@ -71,3 +71,92 @@ body{
   width: 332px;
   margin-right: 1655px;
 }
+
+/* Estilos del footer */
+
+
+.juntar{
+  margin-top: 40px;
+}
+
+.allfooter{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background-color: #6165ea;
+  border: 1px darkblue solid;
+  margin-top: 38.5%;
+}
+
+.buttom{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.button-color{
+  background-color: #30BF91;
+  width: 129px;
+  border: 1px solid #30BF91;
+}
+
+.space{
+  margin-top: 10px;
+}
+
+.img-redes{
+  display: flex;
+  justify-content: space-around;
+}
+
+.spacefooter{
+  display: flex;
+  align-items: flex-end;
+}
+
+.cards_comercio{
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner_green{
+  background-color: #30BF91;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+.banner_purple{
+  background-color: #6165ea;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+/* Estilos del mapa */
+
+
+.map{
+  height: 500px;
+  width: 500pxs;
+}
+
+
+.casosexito .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.casosexito h2 {
+  font-weight: 400;
+}
+.casosexito .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.fiximage{
+  height: 18rem;
+  margin-top: 2rem;
+}
