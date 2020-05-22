@@ -11,19 +11,18 @@
    </head>
    <body>
       <main>
-         <nav class="navbar navbar-expand-lg navbarcoustom">
+         <nav class="navbar navbar-expand-lg navbarcoustom menu-flex">
             <img src="Img/logo_det8.png" alt="" class="logo">
-            <a class="navbar-brand navbartext" href="" >Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler hamburguer_menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNav" >
+            <div class="collapse navbar-collapse navbar-hamburguer  " id="navbarNav" >
                <ul class="navbar-nav">
                   <li class="nav-item active">
-                     <a class="nav-link navbartext" href="#">Casos de exito <span class="sr-only">(current)</span></a>
+                     <a class="nav-link navbartext navbartext_hamburguer" href="#exito">Casos de exito <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item  ">
-                     <a class="nav-link navbartext" href="#">Mochate</a>
+                     <a class="nav-link navbartext" href="#cerca">Negocios Cerca de Ti</a>
                   </li>
                   <li class="nav-item ">
                      <a class="nav-link navbartext" href="#">Registra tu negocio</a>
@@ -37,110 +36,117 @@
                </ul>
             </div>
          </nav>
-         <section class="background">
-            <div>
+         <section class="background" style="overflow: hidden;">
+            <div class="logo_heading">
                <div>
                   <div class="logo-tamaño">
                      <img src="Img/logo_det8_color.png" alt="">
                   </div>
-                  <div class="slogan">
-                     <h3>Encuentra todos los negocios</h3>
-                     <h3>cercanos a tu casa</h3>
+                  <div class="slogan " style="margin-top: 40px;">
+                     <h3>Encuentra todos los negocios cercanos a tu casa</h3>
+                     <div class="mt-3 button-container">
+                     <img src="Img/ButtongooglePlay-Img.png" alt="" id="button-google" style="">
+                     <img src="Img/ButtonappleStore-Img.png" alt="" id="button-apple">
+                  </div>
                   </div>
                </div>
             </div>
-            <div class="middle-buttons">
-               <img src="Img/ButtongooglePlay-Img.png" alt="" id="button-google">
-               <img src="Img/ButtonappleStore-Img.png" alt="" id="button-apple">
-            </div>
+
             <div class="ñora">
-               <img src="Img/ñora.png" alt="" class="tamaño-ñora" >
+               <img src="Img/iPhone X.png" alt="" class="tamaño-ñora" >
+               </div>
+         </section>
+         <section id="exito" class="banner_green">
+            <div class="downArrow bounce">
+              <img width="45" height="45" alt="" src="Img/arrow.svg" />
+            </div>
+            <div>
+               <h3>Consulta en nuestro mapa los changarros más cercanos a tu domicilio</h3>
             </div>
          </section>
          <!-- Seccion mapa -->
          <section id="map" class="map">
          </section>
          <!-- Casos de exito -->
-         <section class="banner_purple">
+         <section id="exito" class="banner_purple">
             <div>
                <h3>Casos de Exito</h3>
             </div>
          </section>
          <section class="cards">
-          <div class="card" style="width: 18rem;">
-            <img src="Img/sra1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Doña Cuca</h5>
-              <p class="card-text">He aumentado la venta de mis tamales y gorditas, !cada vez tengo más gente y mis ganancias son más¡</p>
-              <a href="#" class="btn btn-primary">Conoce mi historia</a>
+            <div class="card" style="width: 18rem;">
+               <img src="Img/sra1.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">Doña Cuca</h5>
+                  <p class="card-text">He aumentado la venta de mis tamales y gorditas, !cada vez tengo más gente y mis ganancias son más¡</p>
+                  <a href="#" class="btn btn-primary buttons-exito">Conoce mi historia</a>
+               </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="Img/sra2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Doña Chilaquil</h5>
-              <p class="card-text">Desde que me inscribí, termino más temprano por los cientos de personas que me compran, !es increible¡</p>
-              <a href="#" class="btn btn-primary">Conoce mi historia</a>
+            <div class="card" style="width: 18rem;">
+               <img src="Img/sra2.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">Doña Chilaquil</h5>
+                  <p class="card-text">Desde que me inscribí, termino más temprano por los cientos de personas que me compran, !es increible¡</p>
+                  <a href="#" class="btn btn-primary buttons-exito">Conoce mi historia</a>
+               </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="Img/sra3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Doña Pelos</h5>
-              <p class="card-text">Mis ventas de al pastor y de asada son un delirio, !nunca imagine que sería todo un exito plebe¡</p>
-              <a href="#" class="btn btn-primary">Conoce mi historia</a>
+            <div class="card" style="width: 18rem;">
+               <img src="Img/sra3.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">Doña Pelos</h5>
+                  <p class="card-text">Mis ventas de al pastor y de asada son un delirio, !nunca imagine que sería todo un exito plebe¡</p>
+                  <a href="#" class="btn btn-primary buttons-exito">Conoce mi historia</a>
+               </div>
             </div>
-          </div>
-          <div class="card " style="width: 18rem;">
-            <img src="Img/taquero.jpg" class="card-img-top fiximage" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Tacos el "Guero"</h5>
-              <p class="card-text">Desde que tengo más clientes, ya logré terminar de pagar mis creditos en COPPEL, ahora soy feliz.</p>
-              <a href="#" class="btn btn-primary">Conoce mi historia</a>
+            <div class="card " style="width: 18rem;">
+               <img src="Img/taquero.jpg" class="card-img-top fiximage" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">Tacos el "Guero"</h5>
+                  <p class="card-text">Desde que tengo más clientes, ya logré terminar de pagar mis creditos en COPPEL, ahora soy feliz.</p>
+                  <a href="#" class="btn btn-primary buttons-exito">Conoce mi historia</a>
+               </div>
             </div>
-          </div>
-        </section>
-        <!-- Aqui va el banner color verde "Negocios cerca de ti" -->
-         <section class="banner_green">
+         </section>
+         <!-- Aqui va el banner color verde "Negocios cerca de ti" -->
+         <section id="cerca"class="banner_green">
             <div>
                <h3>Negocios Cerca de Ti</h3>
             </div>
          </section>
-
-       <section class="cards">
-        <div class="card" style="width: 18rem;">
-          <img src="Img/sra1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Doña Cuca</h5>
-            <p class="card-text">He aumentado la venta de mis tamales y gorditas, !cada vez tengo más gente y mis ganancias son más¡</p>
-            <a href="#" class="btn btn-primary">Conoce mi historia</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Img/sra2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Doña Chilaquil</h5>
-            <p class="card-text">Desde que me inscribí, termino más temprano por los cientos de personas que me compran, !es increible¡</p>
-            <a href="#" class="btn btn-primary">Conoce mi historia</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Img/sra3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Doña Pelos</h5>
-            <p class="card-text">Mis ventas de al pastor y de asada son un delirio, !nunca imagine que sería todo un exito plebe¡</p>
-            <a href="#" class="btn btn-primary">Conoce mi historia</a>
-          </div>
-        </div>
-        <div class="card " style="width: 18rem;">
-          <img src="Img/taquero.jpg" class="card-img-top fiximage" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Tacos el "Guero"</h5>
-            <p class="card-text">Desde que tengo más clientes, ya logré terminar de pagar mis creditos en COPPEL, ahora soy feliz.</p>
-            <a href="#" class="btn btn-primary">Conoce mi historia</a>
-          </div>
-        </div>
-      </section>
+         <section class="cards">
+            <div class="card" style="width: 18rem;">
+               <img src="Img/tortilleria.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">Tortilleria reforma</h5>
+                  <p class="card-text">Compra tus tortillas en la tortilleria Reforma a solo 200m de distancia</p>
+                  <a href="https://www.maizajo.com/" class="btn btn-primary buttons-negocios">Encuentrame Aqui</a>
+               </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+               <img src="Img/vete1.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">Veterinaria Juanjo</h5>
+                  <p class="card-text">Estiliza a tu mascota en la Veterinaria Juanjo a solo 400m de distancia</p>
+                  <a href="http://www.fmvz.unam.mx/fmvz/servicios/s_pequenas.html" class="btn btn-primary buttons-negocios">Encuentrame Aqui</a>
+               </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+               <img src="Img/tiendita.png" class="card-img-top fiximagedos" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">Abarrotes el pulgoso</h5>
+                  <p class="card-text">Ven a comprar tus chelas a los Abarrotes el pulgoso a solo 100m de distancia</p>
+                  <a href="https://abarrotesortega.negocio.site/" class="btn btn-primary buttons-negocios">Encuentrame Aqui</a>
+               </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+               <img src="Img/mercado.png" class="card-img-top fiximagedos" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">Mercado temascoelchago</h5>
+                  <p class="card-text">¿Hambre? ven a comer en el Mercado temascoelchango a solo 500m de distancia</p>
+                  <a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150800-d10266160-Reviews-Mercado_De_Comida_Coyoacan-Mexico_City_Central_Mexico_and_Gulf_Coast.html" class="btn btn-primary buttons-negocios">Encuentrame Aqui</a>
+               </div>
+            </div>
+         </section>
          <!-- Aqui va el footer -->
          <footer>
             <div class="space-footer">
@@ -171,7 +177,7 @@
             </div>
          </footer>
       </main>
-      <script src="https://code.  jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX6ni3Z0kT8N_aZeFpY7sLMsauOLCcK4U&callback=initMap"async defer></script>
